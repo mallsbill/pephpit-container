@@ -1,0 +1,17 @@
+{
+    "name": "pephpit/container",
+    "description": "Pephpit Container",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pephpit\\Container\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "^3.0.0"
+    }
+}
